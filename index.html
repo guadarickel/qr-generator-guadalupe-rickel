@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>QR code generator</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script defer src="app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo_qr_generator.png" alt="Logo of the QR generator page of Guadalupe Rickel">
+			</div>
+			<form action="" id="form" class="form">
+				<input type="text" id="link" placeholder="Enter a text or an URL" />
+				<button class="btn">Generate QR</button>
+			</form>
+
+			<div id="containerQR" class="containerQR"></div>
+		</div>
+	</body>
+</html>
